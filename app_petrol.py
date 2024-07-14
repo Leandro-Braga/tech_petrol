@@ -20,7 +20,7 @@ img = Image.open(img)
 # --- Configurações da página 'Geral' --- #
 
 st.set_page_config(
-    page_title='Petróleo - modelos Preditivo',
+    page_title='Petróleo - Modelos Preditivo',
     page_icon=img,
     layout='wide',
     initial_sidebar_state='expanded',
