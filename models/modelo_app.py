@@ -17,7 +17,6 @@ from grafo.grafico_gerais import (plot_forecast, plot_forecast_predict,
 from models.modelos import auto_arima_model, naive_model, prophet_model
 
 warnings.filterwarnings('ignore')
-pd.set_option('display.max_columns', None)
 
 
 
