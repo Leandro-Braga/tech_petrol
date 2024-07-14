@@ -76,7 +76,6 @@ def init_session_state():
 
         with tab1:
             df = get_desctritiva() # IPEADATA
-            # df = get_desctritiva2() # IEA DATABASE
             col1, col2 = st.columns(2)
 
             with col1:
@@ -493,7 +492,6 @@ def init_session_state():
         st.write("**Leandro Braga Alves** <br> RM :orange[353057] | 3DTAT", unsafe_allow_html=True)
         st.write("**Rodrigo Mitsuo Yoshida** <br> RM :orange[35274] | 3DTAT", unsafe_allow_html=True)
         st.write("**Roberto Yukio Ihara** <br> RM :orange[35274] | 3DTAT", unsafe_allow_html=True)
-
 
         st.divider()
 
