@@ -301,7 +301,7 @@ def modelo_prophet_previsao(df_oleo, end_date):
 
     st.markdown(""" 
     #### Gráfico de Média Móvel
-    O gráfico apresenta a previsão do preço do petróleo Brent, a tendência ao longo do tempo e a média móvel de 7 dias. A média móvel suaviza as flutuações diárias e ajuda a identificar tendências de longo prazo.""")
+    O gráfico apresenta a previsão do preço do petróleo Brent, com a tendência ao longo do tempo e a média móvel em dias. A média móvel suaviza as flutuações diárias e ajuda a identificar tendências de longo prazo.""")
 
     media_valores, mediana_valores, desvio_padrao_valores = plot_forecast_predict(predicoes, 
                       cor_previsao='#FF7F3E', 

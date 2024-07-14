@@ -314,6 +314,7 @@ def init_session_state():
                 
                 st.markdown("""
                 ```Vale notar que o modelo teve suas validações efetuadas com base na data de 18/05/2024, portanto a performance auferida pela biblioteca começa a ser considerada a partir dos dias no futuro, mais especificamente em 19/05/2024 até 01/07/2024 que é a última data a ser avaliada no dataset.``` """)
+            
             st.markdown(""" 
             ⚠️ **:orange[Por que não é bom para este caso]:**
             - **Alta Volatilidade:** O preço do petróleo Brent é altamente volátil, com frequentes flutuações significativas. O Modelo Naive não consegue capturar essas variações, resultando em previsões ineficazes.
@@ -321,7 +322,7 @@ def init_session_state():
 
             📝 **:orange[Conclusão]:**
             O Modelo Naive não é adequado para prever o preço do petróleo Brent devido à sua incapacidade de lidar com a volatilidade e mudanças dinâmicas dos preços. A métrica WMAPE alta reforça a necessidade de modelos mais avançados que possam capturar padrões e tendências nos dados históricos.
-                        """)
+            """)
 
 
         with tab2:
@@ -333,7 +334,6 @@ def init_session_state():
 
             🔢 **:orange[Métrica WMAPE] (Weighted Mean Absolute Percentage Error):**
             A métrica WMAPE é usada para avaliar a precisão das previsões. Ela calcula o erro absoluto médio ponderado pela magnitude dos valores reais, expressando-o como uma porcentagem. A fórmula é:
-
             """)
             st.latex(r"WMAPE = \frac{\sum | \text{Valor Real} - \text{Valor Previsto} |}{\sum \text{Valor Real}} \times 100 \%")
             
@@ -346,7 +346,7 @@ def init_session_state():
 
                 st.markdown("""
                 ```Vale notar que o modelo teve suas validações efetuadas com base na data de 18/05/2024, portanto a performance auferida pela biblioteca começa a ser considerada a partir dos dias no futuro, mais especificamente em 19/05/2024 até 01/07/2024 que é a última data a ser avaliada no dataset.```   
-                            """)
+                """)
             
             st.markdown(""" 
             ⚠️ **:orange[Por que não é bom para este caso]:**
@@ -380,7 +380,7 @@ def init_session_state():
                 
                 st.markdown("""
                 ```Vale notar que o modelo teve suas validações efetuadas com base na data de 18/05/2024, portanto a performance auferida pela biblioteca começa a ser considerada a partir dos dias no futuro, mais especificamente em 19/05/2024 até 01/07/2024 que é a última data a ser avaliada no dataset.```   
-                            """)
+                """)
 
             st.markdown(""" 
             📈 **:orange[Desempenho do Prophet]:**
@@ -443,7 +443,6 @@ def init_session_state():
 
                 st.dataframe(df_futuro, use_container_width=True, hide_index=True)
 
-
                 st.markdown(f"""
                         #### Análise Comparativa
 
@@ -475,9 +474,6 @@ def init_session_state():
 
             4. **🔍 :orange[Foco em Datas Específicas]:**
                 - A tabela detalhada de previsões fornece uma visão granular das expectativas de preços. Notando a ligeira queda prevista para **{max_valor_data}** (com **:blue[{max_valor_previsto}] USD**) seguida de uma recuperação, investidores podem planejar suas estratégias de compra e venda aproveitando pequenas janelas de oportunidade para maximizar ganhos ou minimizar perdas em torno dessas datas.
-
-            ### Conclusão
-            Os dados indicam uma mistura de estabilidade de curto prazo e variabilidade histórica que os investidores devem considerar ao tomar decisões. Analisando tendências e previsões, os investidores podem ajustar suas estratégias para aproveitar períodos de recuperação e proteger-se contra possíveis quedas no mercado do petróleo Brent.
             """)
             
 
