@@ -31,7 +31,7 @@ def init_session_state():
 
         st.markdown(f'<h1 style="text-align: left; color: {cor_titulo}; font-size: 40px;">{selection} | Tech Challenge 4</h1>', unsafe_allow_html=True)
 
-        st.markdown(f"""<h1 style="text-align: left; color: {cor_texto}; font-size: {tamanho_texto};">Este projeto analisa as flutuações históricas do preço do petróleo Brent e desenvolve modelos de machine learning para prever valores futuros. O Brent é uma referência crucial no mercado internacional, influenciando preços em transações comerciais. Utilizaremos análises estatísticas e visualização de dados para identificar padrões e fatores como oferta, demanda e eventos geopolíticos que afetam os preços. <br><br> Desenvolveremos dois modelos de machine learning baseados em séries temporais, combinando CNN e LSTM, para melhorar a precisão das previsões e fornecer insights estratégicos sobre a volatilidade dos preços do petróleo. <br><br>
+        st.markdown(f"""<h1 style="text-align: left; color: {cor_texto}; font-size: {tamanho_texto};">Este projeto analisa as flutuações históricas do preço do petróleo Brent e desenvolve modelos de machine learning para prever valores futuros. O Brent é uma referência crucial no mercado internacional, influenciando preços em transações comerciais. Utilizaremos análises estatísticas e visualização de dados para identificar padrões e fatores como oferta, demanda e eventos geopolíticos que afetam os preços. <br><br> Desenvolveremos modelos de machine learning baseados em séries temporais, combinando CNN e LSTM, para melhorar a precisão das previsões e fornecer insights estratégicos sobre a volatilidade dos preços do petróleo. <br><br>
         Esses modelos não apenas melhorarão a precisão das previsões, mas também ajudarão a compreender melhor os fatores que causam a volatilidade dos preços do petróleo, fornecendo uma base sólida para decisões estratégicas no mercado de energia.</h1>
         """, unsafe_allow_html=True)
 
@@ -45,7 +45,7 @@ def init_session_state():
         2. Desenvolver um modelo de Machine Learning para prever os preços diários do petróleo. <br><br>
         3. Elaborar um plano para o deploy do modelo em produção. <br><br>
         4. Criar um MVP usando Streamlit para apresentar o modelo e os insights de forma acessível.</h1>
-                        """, unsafe_allow_html=True)
+        """, unsafe_allow_html=True)
         
      
         st.subheader("", divider="gray")
@@ -62,7 +62,7 @@ def init_session_state():
             O IPEA disponibiliza esses dados para o público, permitindo sua utilização em estudos, gráficos e outras análises, desde que a fonte seja citada. A série histórica dos preços do petróleo Brent é uma ferramenta valiosa para pesquisadores, economistas e formuladores de políticas, ajudando a monitorar e analisar as tendências do mercado de petróleo ao longo dos anos.
 
             Para mais detalhes, acessar o site oficial do Ipeadata: [Ipeadata](http://ipeadata.gov.br/Default.aspx) | [Ipeadata Tabela Preço do Barril de Petroleo Brent](http://www.ipeadata.gov.br/ExibeSerie.aspx?module=m&serid=1650971490&oper=view)
-                    """)
+            """)
 
 
     elif selection == "Análise Exploratória":
