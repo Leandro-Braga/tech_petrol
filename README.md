@@ -84,8 +84,4 @@ Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICEN
 
 ---
 
-**Autor:** Leandro Braga
-
----
-
 Este projeto foi desenvolvido como parte do 4º Tech Challenge da FIAP. Agradecemos a todos os envolvidos e esperamos que este trabalho contribua para a compreensão e previsão dos preços do petróleo Brent.
