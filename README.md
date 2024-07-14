@@ -13,10 +13,12 @@ O objetivo deste projeto é demonstrar a eficácia de diferentes modelos de prev
 ### Insights e Resultados
 
 1. **Modelo Naive**:
+
    - **Desempenho:** Fraco, com um WMAPE de 101.05%.
    - **Conclusão:** Incapaz de capturar a volatilidade dos preços.
 
 2. **Modelo AutoARIMA**:
+
    - **Desempenho:** Inferior ao Naive, com um WMAPE de 113.60%.
    - **Conclusão:** Dificuldades significativas em prever os preços corretamente.
 
@@ -28,12 +30,12 @@ O objetivo deste projeto é demonstrar a eficácia de diferentes modelos de prev
 
 #### Gráfico de Previsões do Modelo Prophet
 
-![Gráfico de Previsões](path_to_image)
+![Gráfico de Previsões](https://github.com/Leandro-Braga/tech_petrol/blob/main/image/previsao_grafo.png)
 
 #### Tabela de Tendência e Valor Previsto
 
 | Data       | Tendência | Valor Previsto | Diferença Percentual (%) |
-|------------|-----------|----------------|--------------------------|
+| ---------- | --------- | -------------- | ------------------------ |
 | 30/06/2024 | 82.62     | 86.12          | 4.06                     |
 | 29/06/2024 | 82.63     | 86.20          | 4.14                     |
 | 28/06/2024 | 82.63     | 86.29          | 4.24                     |
@@ -49,22 +51,24 @@ O objetivo deste projeto é demonstrar a eficácia de diferentes modelos de prev
 
 - **Link Streamlit:** (Irei adicionar em breve)
 - **Repositório do app Streamlit para o 4º Tech Challenge da FIAP:** [GIT Streamlit](https://github.com/Leandro-Braga/tech_petrol.git)
-- **Acesse o repositório para obter o código Python do app Streamlit:** [https://github.com/Leandro-Braga/tech_petrol.git](https://github.com/Leandro-Braga/tech_petrol.git)
 - **Acesse o repositório para obter o notebook do projeto:** [GIT Notebook](https://github.com/Leandro-Braga/tech_petrol/tree/96adf336b7f273316fb154623b1a0c4a06550222/notebook)
 
 ### Como Executar
 
 1. Clone o repositório:
+
    ```bash
    git clone https://github.com/Leandro-Braga/tech_petrol.git
    ```
 
 2. Navegue até o diretório do projeto:
+
    ```bash
    cd tech_petrol
    ```
 
 3. Instale as dependências:
+
    ```bash
    pip install -r requirements.txt
    ```
