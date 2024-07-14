@@ -49,7 +49,7 @@ O objetivo deste projeto é demonstrar a eficácia de diferentes modelos de prev
 
 ## Acessos e Repositórios
 
-- **Link Streamlit:** (Irei adicionar em breve)
+- **Link Streamlit:** [Link Dashboard Petróleo Brent](https://techpetrol-hhmwnd7u2uhlnq2k8ghbd4.streamlit.app)
 - **Repositório do app Streamlit para o 4º Tech Challenge da FIAP:** [GIT Streamlit](https://github.com/Leandro-Braga/tech_petrol.git)
 - **Acesse o repositório para obter o notebook do projeto:** [GIT Notebook](https://github.com/Leandro-Braga/tech_petrol/tree/96adf336b7f273316fb154623b1a0c4a06550222/notebook)
 
